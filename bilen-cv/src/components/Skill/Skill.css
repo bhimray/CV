@@ -1,0 +1,36 @@
+.projects-wrapper{
+    display: grid;
+    padding-bottom:1rem;
+}
+.project-head-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.projects-wrapper{
+    display: grid;
+}
+.project-head{
+    padding:2rem;
+    font-size:1.5rem;
+    font-weight: 700;
+}
+.project-detail-wrapper{
+    display:flex;
+    justify-content: space-around;
+}
+.language-icon{
+    width:1rem;
+}
+.project-language{
+    display: grid;
+}
+.project-language-description{
+    display: flex;
+}
+.project-features{
+    display: grid;
+    justify-content: flex-start;
+    text-align:start;
+}
