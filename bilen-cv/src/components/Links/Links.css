@@ -1,0 +1,28 @@
+.link-wrapper{
+    display: grid;
+    padding-bottom:1rem;
+}
+.link-website{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.website-icon-link{
+    display: flex;
+}
+.link-others{
+    display: flex;
+    justify-content: space-around;
+}
+.left, .right{
+    display: grid;
+}
+.left-link-github, .left-link-netlify, .right-link-upwork{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding-bottom: 1rem;
+}
+.website-icon, .github-icon, .netlify-icon, .upwork-icon{
+    width:3rem;
+}
