@@ -1,35 +1,50 @@
+
+
+.Skill-wrapper {
+    margin-bottom: 2rem;
+}
 .projects-wrapper{
     display: grid;
     padding-bottom:1rem;
 }
-.project-head-wrapper{
+.project-main-head-wrapper{
     display: flex;
     justify-content: flex-start;
-    font-size: 2rem;
-    font-weight: 700;
-    gap:1rem;
-    width: fit-content;
+    padding:1rem;
+    width:fit-content;
     background-color: white;
     border-radius: 1rem;
-    padding: 1rem;
 }
 .projects-wrapper{
     display: grid;
+}
+.project-wrapper {
+    margin-bottom: 1rem;
+}
+.project-head-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    margin: 1rem;
 }
 .project-head{
     padding:2rem;
     font-size:1.5rem;
     font-weight: 700;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: fit-content;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
 }
-.project-detail-wrapper{
-    display:flex;
+.project-detail-wrapper {
+    display: flex;
     justify-content: space-around;
+    background-color: white;
+    width: fit-content;
+    gap: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 .project-icon{
     width:2rem;

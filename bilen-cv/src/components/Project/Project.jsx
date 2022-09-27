@@ -9,12 +9,14 @@ import gearsSolid from '../../svgIcons/gears-solid.svg'
 const Project = () => {
   return (
     <div className='projects-wrapper'>
-      <div className="project-head-wrapper">
+      <div className="project-main-head-wrapper">
         <img src={gearsSolid} className='project-icon'></img>
         <div className="project">Project</div>
       </div>
       <div className='project-wrapper'>
-        <div className='project-head'>Hotel App</div>
+        <div className="project-head-wrapper">
+          <div className='project-head'>Hotel App</div>
+        </div>
         <div className="project-detail-wrapper">
           <div className='project-language'>
             <div className="project-language-description">
@@ -41,7 +43,9 @@ const Project = () => {
         </div>
       </div>
       <div className='project-wrapper'>
-        <div className='project-head'>Gym App</div>
+        <div className="project-head-wrapper">
+          <div className='project-head'>Gym App</div>
+        </div>
         <div className="project-detail-wrapper">
           <div className='project-language'>
             <div className="project-language-description">
@@ -68,7 +72,9 @@ const Project = () => {
         </div>
       </div>
       <div className='project-wrapper'>
-        <div className='project-head'>Dry Cleaner Project</div>
+        <div className="project-head-wrapper">
+          <div className='project-head'>Dry Cleaner Project</div>
+        </div>
         <div className="project-detail-wrapper">
           <div className='project-language'>
             <div className="project-language-description">
@@ -95,7 +101,9 @@ const Project = () => {
         </div>
       </div>
       <div className='project-wrapper'>
-        <div className='project-head'>My Profile</div>
+        <div className="project-head-wrapper">
+          <div className='project-head'>My Profile</div>
+        </div>
         <div className="project-detail-wrapper">
           <div className='project-language'>
             <div className="project-language-description">
@@ -122,7 +130,9 @@ const Project = () => {
         </div>
       </div>
       <div className='project-wrapper'>
-        <div className='project-head'>CV</div>
+        <div className="project-head-wrapper">
+          <div className='project-head'>CV</div>
+        </div>
         <div className="project-detail-wrapper">
           <div className='project-language'>
             <div className="project-language-description">
