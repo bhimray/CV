@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <div className='projects-wrapper'>
       <div className="project-head-wrapper">
-        <img src={gearsSolid} className='language-icon'></img>
+        <img src={gearsSolid} className='project-icon'></img>
         <div className="project">Project</div>
       </div>
       <div className='project-wrapper'>

@@ -7,14 +7,28 @@
     justify-content: flex-start;
     padding-bottom: 1.5rem;
     gap:1rem;
+    width: fit-content;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 .website-icon-link{
     display: flex;
     gap:1rem;
 }
-.link-others{
+.link-others-wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    /* padding:1rem; */
+}
+.link-others {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20rem;
+    width: fit-content;
+    background-color: white;
+    padding:1rem;
+    border-radius: 1rem;
 }
 .left, .right{
     display: grid;
@@ -26,6 +40,9 @@
     padding-bottom: 1rem;
     gap:1rem;
 }
-.website-icon, .github-icon, .netlify-icon, .upwork-icon{
-    width:3rem;
+.github-icon, .netlify-icon, .upwork-icon{
+    width:2rem;
+}
+.website-icon{
+    width:2rem;
 }

@@ -8,6 +8,10 @@
     font-size: 2rem;
     font-weight: 700;
     gap:1rem;
+    width: fit-content;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 .projects-wrapper{
     display: grid;
@@ -16,10 +20,19 @@
     padding:2rem;
     font-size:1.5rem;
     font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 .project-detail-wrapper{
     display:flex;
     justify-content: space-around;
+}
+.project-icon{
+    width:2rem;
 }
 .language-icon{
     width:1rem;

@@ -13,25 +13,27 @@ const Links = () => {
         <img src={Link} className='github-icon'></img>
         <div className='website-head'>Website</div>
       </div>
-      <div className="link-others">
-        <div className='left'>
-          <div className='left-link-github'>
-            <img src={gitIcon} className='github-icon'></img>
-            <div className='github-name'>Github</div>
+      <div className='link-others-wrapper'>
+        <div className="link-others">
+          <div className='left'>
+            <div className='left-link-github'>
+              <img src={gitIcon} className='github-icon'></img>
+              <div className='github-name'>Github</div>
+            </div>
+            <div className='left-link-netlify'>
+              <img src={netlifyIcon} className='netlify-icon'></img>
+              <div className='netlify-name'>Netlify</div>
+            </div>
           </div>
-          <div className='left-link-netlify'>
-            <img src={netlifyIcon} className='netlify-icon'></img>
-            <div className='netlify-name'>Netlify</div>
-          </div>
-        </div>
-        <div className='right'>
-          <div className="right-link-upwork">
-            <img src={upworkIcon} alt="" className='upwork-icon'/>
-            <div className="upwork-name">Upwork</div>
-          </div>
-          <div className='website-icon-link'>
-            <img src={idCard} className='website-icon'></img>
-            <div className='website-link'>Profile Website</div>
+          <div className='right'>
+            <div className="right-link-upwork">
+              <img src={upworkIcon} alt="" className='upwork-icon'/>
+              <div className="upwork-name">Upwork</div>
+            </div>
+            <div className='website-icon-link'>
+              <img src={idCard} className='website-icon'></img>
+              <div className='website-link'>Profile Website</div>
+            </div>
           </div>
         </div>
       </div>
