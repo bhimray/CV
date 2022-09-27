@@ -5,6 +5,7 @@ import gitIcon from '../../svgIcons/github.svg'
 import netlifyIcon from '../../svgIcons/netlify.svg'
 import upworkIcon from '../../svgIcons/laptop-file-solid.svg'
 import Link from '../../svgIcons/link-solid.svg'
+import idCard from '../../svgIcons/id-card-clip-solid.svg'
 const Links = () => {
   return (
     <div className='link-wrapper'>
@@ -29,7 +30,7 @@ const Links = () => {
             <div className="upwork-name">Upwork</div>
           </div>
           <div className='website-icon-link'>
-            <img src={webIcon} className='website-icon'></img>
+            <img src={idCard} className='website-icon'></img>
             <div className='website-link'>Profile Website</div>
           </div>
         </div>

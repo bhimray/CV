@@ -7,6 +7,7 @@
     justify-content: flex-start;
     font-size: 2rem;
     font-weight: 700;
+    gap:1rem;
 }
 .projects-wrapper{
     display: grid;
@@ -25,9 +26,11 @@
 }
 .project-language{
     display: grid;
+    gap:1rem;
 }
 .project-language-description{
     display: flex;
+    gap:1rem;
 }
 .project-features{
     display: grid;

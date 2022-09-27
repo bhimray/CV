@@ -6,9 +6,11 @@
     display: flex;
     justify-content: flex-start;
     padding-bottom: 1.5rem;
+    gap:1rem;
 }
 .website-icon-link{
     display: flex;
+    gap:1rem;
 }
 .link-others{
     display: flex;
@@ -22,6 +24,7 @@
     justify-content: flex-start;
     align-items: start;
     padding-bottom: 1rem;
+    gap:1rem;
 }
 .website-icon, .github-icon, .netlify-icon, .upwork-icon{
     width:3rem;
