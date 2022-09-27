@@ -12,10 +12,12 @@
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    font-weight: 600;
 }
 .website-icon-link{
     display: flex;
     gap:1rem;
+    align-items: center;
 }
 .link-others-wrapper{
     display: flex;
@@ -46,4 +48,8 @@
 }
 .website-icon{
     width:2rem;
+}
+
+.website-head {
+    font-weight: 600;
 }
