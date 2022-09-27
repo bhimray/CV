@@ -4,7 +4,7 @@
 }
 .link-website{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-bottom: 1.5rem;
 }
 .website-icon-link{
