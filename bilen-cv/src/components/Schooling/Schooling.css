@@ -1,0 +1,58 @@
+.study-wrapper-whole{
+    display: grid;
+    gap:1rem;
+
+}
+.study-wrapper{
+    display: grid;
+    gap:1rem;
+}
+.study-content-wrapper{
+
+}
+.studyIcon{
+    width:2rem;
+}
+.study-head-wrapper{
+    display:flex;
+    justify-content: flex-start;
+    width:fit-content;
+    gap:1rem;
+    font-weight: 600;
+    background-color: white;
+    padding:1rem;
+    border-radius: 1rem;
+}
+.study-date-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.study-date{
+    width: fit-content;
+    background-color:white;
+    padding:1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.level-institute-wrapper{
+    background-color: white;
+    display: grid;
+    justify-content: flex-start;
+    background-color: white;
+    padding:1rem;
+    border-radius: 1rem 0rem 1rem 1rem;
+    gap:1rem;
+}
+.study-level{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.study-level>div {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.study-institute{
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,10 @@
+.goal-purpose{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: justify;
+    width:100%;
+    height: fit-content;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
