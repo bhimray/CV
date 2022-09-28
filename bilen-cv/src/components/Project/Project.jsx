@@ -80,7 +80,7 @@ const Project = () => {
             <div className="project-language-description">
               <img src={jsIcon} className='language-icon'></img>
               <div className='language-percent'>45.7%</div>
-              <div className='language-name'>js</div>
+              <div className='language-name'>JS</div>
             </div>
             <div className="project-language-description">
               <img src={htmlIcon} className='language-icon'></img>
