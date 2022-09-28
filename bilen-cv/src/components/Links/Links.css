@@ -8,11 +8,12 @@
     padding-bottom: 1.5rem;
     gap:1rem;
     width: fit-content;
-    background-color: white;
+    background-color: #df92923b;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
+    box-shadow: 2px 2px darkgrey;
 }
 .website-icon-link{
     display: flex;
@@ -32,6 +33,9 @@
     background-color: white;
     padding:1rem;
     border-radius: 1rem;
+    box-shadow: 2px 2px darkgrey;
+    background-color: #df92923b;
+
 }
 .left, .right{
     display: grid;

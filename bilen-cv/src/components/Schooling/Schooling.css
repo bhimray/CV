@@ -22,6 +22,8 @@
     background-color: white;
     padding:1rem;
     border-radius: 1rem;
+    box-shadow: 2px 2px darkgrey;
+    background-color: #df92923b;
 }
 .study-date-wrapper{
     display: flex;
@@ -42,6 +44,7 @@
     padding:1rem;
     border-radius: 1rem 0rem 1rem 1rem;
     gap:1rem;
+    box-shadow: 2px 2px 14px;
 }
 .study-level{
     display: flex;

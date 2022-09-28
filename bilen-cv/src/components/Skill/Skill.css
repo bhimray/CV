@@ -16,6 +16,8 @@
     border-radius: 1rem;
     gap:1rem;
     font-weight: 600;
+    box-shadow: 2px 2px darkgrey;
+    background-color: #df92923b;
 }
 .projects-wrapper{
     display: grid;
@@ -38,6 +40,8 @@
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
+    box-shadow: 2px 2px darkgrey;
+    background-color: #df92923b;
 }
 .project-detail-wrapper {
     display: flex;
@@ -47,6 +51,8 @@
     gap: 15rem;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 2px 2px darkgrey;
+    background-color: #df92923b;
 }
 .project-icon{
     width:2rem;

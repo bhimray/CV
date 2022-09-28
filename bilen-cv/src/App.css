@@ -45,3 +45,12 @@
 a{
   text-decoration: none;
 }
+
+.blur {
+  background-color: #260e0c4f;
+  position: absolute;
+  z-index: -9;
+  border-radius: 50%;
+  filter: blur(212px);
+  z-index: 1;
+}

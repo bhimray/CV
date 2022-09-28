@@ -94,9 +94,10 @@ const Project = () => {
             </div>
           </div>
           <div className='project-features'>
-            <div className="features-list">Multipage website</div>
-            <div className="features-list">Easy routing</div>
+            <div className="features-list">Singlepage website</div>
+            <div className="features-list">Link to scroll page</div>
             <div className="features-list">Responsive</div>
+            <div className='features-list'>EmailJs Features</div>
           </div>
         </div>
       </div>
@@ -123,9 +124,10 @@ const Project = () => {
             </div>
           </div>
           <div className='project-features'>
-            <div className="features-list">Multipage website</div>
-            <div className="features-list">Easy routing</div>
+            <div className="features-list">Singlepage Website</div>
+            <div className="features-list">Highly attractive</div>
             <div className="features-list">Responsive</div>
+            <div className='features-list'>Dynamic state</div>
           </div>
         </div>
       </div>
@@ -152,9 +154,10 @@ const Project = () => {
             </div>
           </div>
           <div className='project-features'>
-            <div className="features-list">Multipage website</div>
-            <div className="features-list">Easy routing</div>
-            <div className="features-list">Responsive</div>
+            <div className="features-list">Singlepage website</div>
+            <div className="features-list">Simple website</div>
+            <div className="features-list">Highly Responsive</div>
+            <div className='features-list'>No media queries</div>
           </div>
         </div>
       </div>
