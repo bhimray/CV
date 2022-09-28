@@ -21,17 +21,17 @@ const Project = () => {
           <div className='project-language'>
             <div className="project-language-description">
               <img src={jsIcon} className='language-icon'></img>
-              <div className='language-percent'>5%</div>
+              <div className='language-percent'>43.3%</div>
               <div className='language-name'>JS</div>
             </div>
             <div className="project-language-description">
               <img src={htmlIcon} className='language-icon'></img>
-              <div className='language-percent'>25%</div>
+              <div className='language-percent'>17%</div>
               <div className='language-name'>HTML</div>
             </div>
             <div className="project-language-description">
               <img src={cssIcon} className='language-icon'></img>
-              <div className='language-percent'>30%</div>
+              <div className='language-percent'>39.2%</div>
               <div className='language-name'>CSS</div>
             </div>
           </div>
